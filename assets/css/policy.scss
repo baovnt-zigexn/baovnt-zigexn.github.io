@@ -1,0 +1,34 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "typography";
+
+.main {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 30px;
+}
+
+.policy {
+    border-bottom: 1px solid #ddd;
+}
+
+.title {
+    text-align: center;
+    font-size: 64px;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: normal;
+}
